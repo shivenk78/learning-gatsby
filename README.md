@@ -7,4 +7,4 @@
 <h1 align="center">
   A simple site for learning Gatsby.js
 </h1>
-<p>Deployed with Surge at <a>aspiring-structure.surge.sh</a></p>
+<p>Deployed with Surge at <a href="aspiring-structure.surge.sh">aspiring-structure.surge.sh</a></p>
