@@ -9,6 +9,6 @@ export default function Home() {
       <Link to="/about-css-modules/">About CSS Modules</Link>
       <Header headerText="Welcome to the home page!"/>
       <p>What a world we live in.</p>
-      <img src="https://i.imgflip.com/2jjfsl.jpg"/>
+      <img src="https://i.imgflip.com/2jjfsl.jpg" alt="Gatsby meme"/>
     </div>
 }
