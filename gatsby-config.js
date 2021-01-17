@@ -7,13 +7,21 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Shiven\'s Gatsby Playground'
+    title: `Shiven\`s Gatsby Playground`
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-typography',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        pathToConfigModule: 'src/utils/typography',
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    `gatsby-plugin-emotion`,
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
       },
     },
   ],

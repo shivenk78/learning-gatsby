@@ -49,7 +49,8 @@ export default function Layout({ children }) {
                     <ListLink to="/blog">Blog</ListLink>
                     <ListLink to="/about">About</ListLink>
                     <ListLink to="/contact">Contact</ListLink>
-                    <ListLink to="/about-css-modules">About CSS Modules</ListLink>
+                    <ListLink to="/about-css-modules">CSS Modules</ListLink>
+                    <ListLink to="/my-files">My Files</ListLink>
                 </ul>
             </header>
 
