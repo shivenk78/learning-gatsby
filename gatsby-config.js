@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Shiven\`s Gatsby Playground`
+    title: `Shiven\'s Gatsby Playground`
   },
   plugins: [
     {
