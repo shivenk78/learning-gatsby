@@ -6,6 +6,9 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: 'Shiven\'s Gatsby Playground'
+  },
   plugins: [
     {
       resolve: 'gatsby-plugin-typography',
